@@ -1,0 +1,26 @@
+.footer {
+  padding: 25px 8%;
+  background-color: #080c0b;
+  border-top: 1px solid #1e2b26;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer p {
+  color: #888888;
+  font-size: 14px;
+}
+
+.footer p:last-child {
+  color: #00e676;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 22px 5%;
+  }
+}
